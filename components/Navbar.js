@@ -4,7 +4,8 @@ import extra from "../styles/Extra.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import { FaSearch, FaWineBottle, FaLocationArrow } from "react-icons/fa";
+import { CgMenuLeftAlt } from "react-icons/cg";
+import { BiSearchAlt } from "react-icons/bi";
 import { Transition } from "@headlessui/react";
 const Navbar = (props) => {
   const router = useRouter();
@@ -13,17 +14,24 @@ const Navbar = (props) => {
     <>
       <nav
         id={extra.edu}
-        className="flex justify-between w-full mx-auto md:flex-row md:  bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
+        className="justify-between flex md:justify-between w-full mx-auto md:flex-row md:  bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
       >
+        <button type="button" className="md:hidden">
+          <CgMenuLeftAlt className="md:hidden text-4xl" />
+        </button>
+
         <Link href="/" passHref>
-          <div id={extra.edu} className="mt-2 cursor-pointer">
+          <div
+            id={extra.edu}
+            className="flex justify-center mt-2 cursor-pointer"
+          >
             <span className="text-4xl lin font-bold p-2 tracking-wide">
               donate
               <span className="text-[#00E676] text-4xl py-[-20px]">hut</span>
             </span>
           </div>
         </Link>
-        {/* <div className="hidden md:flex text-lg font-[600] tracking-wide px-2 pt-2">
+        <div className="hidden md:flex text-lg font-[600] tracking-wide px-2 pt-2">
           <span className="p-4">
             <Link href="/">
               <a className={router.pathname == "/" ? "active" : ""}>Home</a>
@@ -57,13 +65,17 @@ const Navbar = (props) => {
               </a>
             </Link>
           </span>
-        </div> */}
+        </div>
         <div className="flex p-4">
-          <div className="py-1 px-2">
-            <FaSearch className="text-xl text-[#00E676]" />
-          </div>
-          <h1 className="px-2 py-1 font-semibold">Akshit Kumar</h1>
+          <button className="py-1 px-2">
+            <BiSearchAlt className="text-2xl text-[#00E676]" />
+          </button>
+
+          {/* <h1 className="px-2 py-1 font-semibold">Akshit Kumar</h1> */}
+          {/* <button type="button" className="md:hidden text-2xl"> <CgMenuLeftAlt/> </button> */}
           <div className="px-2">
+            <div className="hover:block">
+            </div>
             <Image
               alt="home"
               className="rounded-full"
