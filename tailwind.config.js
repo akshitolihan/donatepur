@@ -6,9 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      boxShadow: {
-        'aksh': 'rgba(0, 0, 4, 0.05) -2px 0px 0px 0px;',
-      }
+      // boxShadow: {
+      //   'aksh': 'rgba(0, 0, 4, 0.05) -2px 0px 0px 0px;',
+      // }
     },
   },
   plugins: [],
