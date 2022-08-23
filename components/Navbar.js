@@ -19,7 +19,7 @@ const Navbar = (props) => {
         <div className="block shadow-lg">
       <nav
         id={extra.edu}
-        className="justify-between shadow-lg pb-4 md:justify-between w-full mx-auto md:flex-row md:fixed bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
+        className="justify-between shadow-sm pb-4 md:justify-between w-full mx-auto md:flex-row md:fixed bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
       >
         <div className={`hidden w-full md:flex justify-between pt-4 -mb-4`}>
           <Link href="/" passHref>
