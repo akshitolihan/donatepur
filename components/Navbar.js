@@ -16,52 +16,65 @@ const Navbar = (props) => {
   };
   return (
     <>
+        <div className="block shadow-lg">
       <nav
         id={extra.edu}
-        className="justify-between flex md:justify-between w-full mx-auto md:flex-row md:fixed bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
+        className="justify-between shadow-lg pb-4 md:justify-between w-full mx-auto md:flex-row md:fixed bg-[#fff] md:z-[1] shadow-[#EEEEEE]"
       >
-        <div className={`hidden w-full md:flex justify-between`}>
+        <div className={`hidden w-full md:flex justify-between pt-4 -mb-4`}>
           <Link href="/" passHref>
             <div
               id={extra.edu}
               className="flex justify-center mt-2 cursor-pointer"
             >
-              <span className="text-4xl  font-bold p-2 tracking-wide">
+              <span className="text-4xl font-bold p-2 tracking-wide">
                 donate
                 <span className="text-[#00E676] text-4xl py-[-20px]">hut</span>
               </span>
             </div>
           </Link>
-          <div className="hidden md:flex text-lg font-[600] tracking-wide px-2 pt-2">
-            <span className="p-4">
+          <div className="hidden md:flex text-lg font-[600] tracking-wide -2 pt-6 justify-evenly">
+            <span className="px-4 -mb-4">
               <Link href="/">
-                <a className={router.pathname == "/" ? "active" : ""}>Home</a>
+                <a
+                  className={`${router.pathname == "/" ? "active" : ""} px-2 shadow-aksh`}
+                >
+                  Home
+                </a>
               </Link>
             </span>
-            <span className="p-4">
+            <span className="px-4">
               <Link href="/donate">
-                <a className={router.pathname == "/donate" ? "active" : ""}>
+                <a
+                  className={`${router.pathname == "/donate" ? "active" : ""} px-2 shadow-aksh`}
+                >
                   Donate
                 </a>
               </Link>
             </span>
-            <span className="p-4">
+            <span className="px-4">
               <Link href="/inform">
-                <a className={router.pathname == "/inform" ? "active" : ""}>
+                <a
+                  className={`${router.pathname == "/inform" ? "active" : ""} px-2 shadow-aksh`}
+                >
                   Inform
                 </a>
               </Link>
             </span>
-            <span className="p-4">
+            <span className="px-4">
               <Link href="/blogs">
-                <a className={router.pathname == "/blogs" ? "active" : ""}>
+                <a
+                  className={`${router.pathname == "/blogs" ? "active" : ""} px-2 shadow-aksh`}
+                >
                   Blog
                 </a>
               </Link>
             </span>
-            <span className="p-4">
+            <span className="px-4">
               <Link href="/about">
-                <a className={router.pathname == "/about" ? "active" : ""}>
+                <a
+                  className={`${router.pathname == "/about" ? "active" : ""} px-2 shadow-aksh`}
+                >
                   About
                 </a>
               </Link>
@@ -98,17 +111,17 @@ const Navbar = (props) => {
                 id={extra.edu}
                 className="flex justify-center cursor-pointer"
               >
-                <span className="text-4xl p-4 font-bold tracking-wide">
+                <span className="text-4xl px-4 font-bold tracking-wide">
                   donate
                   <span className="text-[#00E676] text-4xl ">hut</span>
                 </span>
               </div>
             </Link>
-            <div className="flex p-4">
+            <div className="flex px-4">
               <button className="py-1 px-2">
                 <BiSearchAlt className="text-2xl text-[#00E676]" />
               </button>
-              <div className="px-2">
+              <div className="px-2 py-2">
                 <div className="hover:block"></div>
                 <Image
                   alt="home"
@@ -140,7 +153,9 @@ const Navbar = (props) => {
             </div>
           </div>
         </div>
+      {/* <hr className="h-2 w-full mt-2" /> */}
       </nav>
+      </div>
     </>
   );
 };
