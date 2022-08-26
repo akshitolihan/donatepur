@@ -4,32 +4,31 @@
       <rect id="clip0_302_60" width="950" height="950"/>
     </clipPath>
     <clipPath id="clip-path-2">
-      <rect id="clip0_302_60-2" data-name="clip0_302_60" width="487.986" height="665.939"/>
+      <rect id="clip0_302_60-2" data-name="clip0_302_60" width="553.054" height="672.597"/>
     </clipPath>
     <clipPath id="clip-path-3">
-      <rect id="clip0_302_60-3" data-name="clip0_302_60" width="740.825" height="725.508"/>
+      <rect id="clip0_302_60-3" data-name="clip0_302_60" width="435.481" height="732.166"/>
     </clipPath>
   </defs>
   <g id="dhut" clip-path="url(#clip-path)">
-    <g id="dhut-2" data-name="dhut" transform="translate(-688.994 -344.994)">
+    <g id="dhut-2" data-name="dhut" transform="translate(-688.994 -371.994)">
       <g id="_152440" data-name="152440" transform="translate(688.994 344.994)" clip-path="url(#clip-path)">
-        <path id="Path_15" data-name="Path 15" d="M13.179,519.171l183.1,330.891c17.643,31.99,50.369,51.712,85.791,51.7h366.2c35.18.268,67.848-18.948,85.79-50.461l183.1-330.892a107.12,107.12,0,0,0,0-103.4L734.057,86.12c-17.8-31.773-50.469-51.3-85.79-51.288H282.07c-35.075-.27-67.688,18.754-85.791,50.043L13.179,415.768A108,108,0,0,0,13.179,519.171Z" transform="translate(19.541 6.701)" fill="#00e676"/>
+        <path id="Path_15" data-name="Path 15" d="M13.179,519.171l183.1,330.891c17.643,31.99,50.369,51.712,85.791,51.7h366.2c35.18.268,67.848-18.948,85.79-50.461l183.1-330.892a107.12,107.12,0,0,0,0-103.4L734.057,86.12c-17.8-31.773-50.469-51.3-85.79-51.288H282.07c-35.075-.27-67.688,18.754-85.791,50.043L13.179,415.768A108,108,0,0,0,13.179,519.171Z" transform="translate(19.541 6.701)" fill="#1e71f9"/>
       </g>
     </g>
-    <g id="dhut2" transform="translate(39.002 55.879)">
-      <rect id="Rectangle_5" data-name="Rectangle 5" width="618" height="697" transform="translate(107.616 111.52)" fill="none"/>
-      <g id="_300660" data-name="300660" transform="translate(124.119 111.575)" clip-path="url(#clip-path-2)">
-        <path id="Path_18" data-name="Path 18" d="M453.766,302.8,363.189,75.388c-8.728-21.986-24.917-35.54-42.44-35.534H139.6c-17.4-.184-33.564,13.022-42.439,34.68L6.58,301.946c-8.774,21.987-8.774,49.078,0,71.065l90.577,227.41c8.807,21.837,24.966,35.257,42.439,35.248H320.749c17.351.185,33.484-12.889,42.44-34.393l90.577-227.412C462.459,351.846,462.459,324.818,453.766,302.8Z" transform="translate(629.265 -387.906)" fill="#fff" stroke="#00e676" stroke-width="23.955"/>
+    <g id="dhut2" transform="translate(198.473 147.766)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="247.587" height="703.658" transform="translate(128.106 23.14)" fill="none"/>
+      <g id="_300660" data-name="300660" transform="translate(0 23.195)" clip-path="url(#clip-path-2)">
+        <path id="Path_18" data-name="Path 18" d="M514.272,305.428,411.617,75.743c-9.892-22.206-28.239-35.9-48.1-35.889H158.21c-19.724-.186-38.039,13.152-48.1,35.027L7.458,304.567a90.074,90.074,0,0,0,0,71.776L110.112,606.026c9.981,22.055,28.3,35.609,48.1,35.6H363.518c19.665.187,37.949-13.018,48.1-34.737L514.272,377.2A90.847,90.847,0,0,0,514.272,305.428Z" transform="translate(713.171 -391.386)" fill="#fff" stroke="#00e676" stroke-width="23.955"/>
       </g>
-      <g id="_973325" data-name="973325" transform="translate(65.585 88.38)" clip-path="url(#clip-path-3)">
-        <path id="Path_19" data-name="Path 19" d="M719.695,355.01,576.035,78.1c-13.843-26.772-39.519-43.276-67.311-43.268H221.407c-27.6-.224-53.233,15.857-67.311,42.229L10.437,353.972a94.9,94.9,0,0,0,0,86.534L154.1,717.415c13.968,26.59,39.6,42.931,67.311,42.921H508.724c27.52.226,53.108-15.694,67.311-41.879l143.66-276.912A95.689,95.689,0,0,0,719.695,355.01Z" transform="translate(764.94 11.556)" fill="#00e676"/>
+      <g id="_973325" data-name="973325" transform="translate(58.787 0)" clip-path="url(#clip-path-3)">
+        <path id="Path_19" data-name="Path 19" d="M423.06,357.949,338.612,78.5c-8.137-27.017-23.23-43.673-39.568-43.665H130.15c-16.226-.226-31.292,16-39.567,42.617L6.135,356.9c-8.181,27.019-8.181,60.309,0,87.328l84.447,279.45c8.211,26.834,23.277,43.325,39.567,43.315H299.044c16.177.228,31.218-15.838,39.568-42.263L423.06,445.277C431.164,418.22,431.164,385.007,423.06,357.949Z" transform="translate(449.657 11.982)" fill="#00e676"/>
       </g>
     </g>
-    <rect id="Rectangle_7" data-name="Rectangle 7" width="163" height="750" rx="81.5" transform="translate(361.126 80.233)" fill="#fff"/>
-    <rect id="Rectangle_8" data-name="Rectangle 8" width="163" height="373" rx="81.5" transform="translate(198.126 455.233)" fill="#fff"/>
-    <rect id="Rectangle_9" data-name="Rectangle 9" width="163" height="341.547" rx="81.5" transform="matrix(0.017, -1, 1, 0.017, 441.204, 589.146)" fill="#fff"/>
-    <rect id="Rectangle_10" data-name="Rectangle 10" width="163" height="373" rx="81.5" transform="translate(621.126 455.233)" fill="#fff"/>
-    <rect id="Rectangle_11" data-name="Rectangle 11" width="163" height="341.547" rx="81.5" transform="matrix(0.017, -1, 1, 0.017, 198.126, 618.208)" fill="#fff"/>
-    <rect id="Rectangle_12" data-name="Rectangle 12" width="163" height="324.623" rx="81.5" transform="matrix(0.017, -1, 1, 0.017, 198.126, 824.272)" fill="#fff"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="163" height="756.658" rx="81.5" transform="translate(543.097 70.068)" fill="#fff"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="163" height="373" rx="81.5" transform="translate(243.904 448.397)" fill="#fff"/>
+    <path id="Path_20" data-name="Path 20" d="M81.236,0c45.014.148,81.625,43.651,81.773,97.165l.589,212.276c.148,53.514-36.222,96.776-81.236,96.627S.738,362.418.589,308.9L0,96.628C-.148,43.113,36.223-.148,81.236,0Z" transform="matrix(0.017, -1, 1, 0.017, 243.903, 602.444)" fill="#fff"/>
+    <path id="Path_21" data-name="Path 21" d="M81.272,0c45.013.129,81.608,42.691,81.737,95.066l.662,269.739c.129,52.375-36.258,94.73-81.271,94.6S.791,416.715.662,364.34L0,94.6C-.128,42.226,36.258-.128,81.272,0Z" transform="matrix(0.017, -1, 1, 0.017, 243.903, 831.279)" fill="#fff"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="163" height="324.623" rx="81.5" transform="matrix(0.017, -1, 1, 0.017, 314.328, 713.552)" fill="#fff"/>
   </g>
 </svg>

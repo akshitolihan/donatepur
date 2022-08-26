@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <link rel="icon" href="/dhut.svg" />
     </Head>
       <NextNProgress
-        color="#00E676"
+        color="#1E71F9"
         startPosition={0.3}
         stopDelayMs={200}
         height={3}
