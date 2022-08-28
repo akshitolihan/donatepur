@@ -25,10 +25,10 @@
         <path id="Path_19" data-name="Path 19" d="M423.06,357.949,338.612,78.5c-8.137-27.017-23.23-43.673-39.568-43.665H130.15c-16.226-.226-31.292,16-39.567,42.617L6.135,356.9c-8.181,27.019-8.181,60.309,0,87.328l84.447,279.45c8.211,26.834,23.277,43.325,39.567,43.315H299.044c16.177.228,31.218-15.838,39.568-42.263L423.06,445.277C431.164,418.22,431.164,385.007,423.06,357.949Z" transform="translate(449.657 11.982)" fill="#00e676"/>
       </g>
     </g>
-    <rect id="Rectangle_7" data-name="Rectangle 7" width="163" height="756.658" rx="81.5" transform="translate(543.097 70.068)" fill="#fff"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="228.059" height="769.228" rx="79" transform="translate(487.038 52.169)" fill="#fff"/>
     <rect id="Rectangle_8" data-name="Rectangle 8" width="163" height="373" rx="81.5" transform="translate(243.904 448.397)" fill="#fff"/>
     <path id="Path_20" data-name="Path 20" d="M81.236,0c45.014.148,81.625,43.651,81.773,97.165l.589,212.276c.148,53.514-36.222,96.776-81.236,96.627S.738,362.418.589,308.9L0,96.628C-.148,43.113,36.223-.148,81.236,0Z" transform="matrix(0.017, -1, 1, 0.017, 243.903, 602.444)" fill="#fff"/>
     <path id="Path_21" data-name="Path 21" d="M81.272,0c45.013.129,81.608,42.691,81.737,95.066l.662,269.739c.129,52.375-36.258,94.73-81.271,94.6S.791,416.715.662,364.34L0,94.6C-.128,42.226,36.258-.128,81.272,0Z" transform="matrix(0.017, -1, 1, 0.017, 243.903, 831.279)" fill="#fff"/>
-    <rect id="Rectangle_12" data-name="Rectangle 12" width="163" height="324.623" rx="81.5" transform="matrix(0.017, -1, 1, 0.017, 314.328, 713.552)" fill="#fff"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="163" height="324.623" transform="matrix(0.017, -1, 1, 0.017, 314.328, 713.552)" fill="#fff"/>
   </g>
 </svg>

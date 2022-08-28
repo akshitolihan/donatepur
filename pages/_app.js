@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-    <link rel="icon" href="/dhut.svg" />
+    <link rel="icon" href="/dp.svg" />
     </Head>
       <NextNProgress
         color="#1E71F9"
