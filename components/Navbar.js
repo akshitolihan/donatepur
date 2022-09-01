@@ -17,10 +17,10 @@ const Navbar = (props) => {
   };
   return (
     <>
-      <div className="pb-16 md:pb-24">
+      <div className="shadow-lg pb-20 md:pb-16">
         <nav
           id={extra.edu}
-          className="justify-between pb-4 md:justify-between w-full mx-auto md:flex-row md:fixed bg-[#fff] md:z-[1] "
+          className="justify-between rounded-b-xl md:justify-between pb-4 w-full mx-auto flex-row fixed bg-[#fff] z-[1] "
         >
           <div className={`hidden w-full md:flex justify-between pt-4 -mb-4`}>
             <div className="px-2">
