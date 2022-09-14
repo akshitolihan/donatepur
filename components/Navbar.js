@@ -17,22 +17,22 @@ const Navbar = (props) => {
   };
   return (
     <>
-      <div className="shadow-lg pb-20 md:pb-16">
+      <div className="md:shadow-lg pb-20 md:pb-16">
         <nav
-          id={extra.edu}
-          className="justify-between rounded-b-xl md:justify-between pb-4 w-full mx-auto flex-row fixed bg-[#fff] z-[1] "
+          
+          className="justify-between rounded-b-xl md:justify-between pb-4 w-full mx-auto flex-row fixed bg-[#fff] z-[1] shadow-lg"
         >
           <div className={`hidden w-full md:flex justify-between pt-4 -mb-4`}>
-            <div className="px-2">
+            <div id={extra.edu} className="px-2">
               <Link href="/" passHref>
                 <div className="flex">
-                  <h1 className="m-2 flex justify-center text-4xl font-[600]  tracking-wider mt-2 cursor-pointer text-[#6C63FF]">
+                  <h1 className="m-2 flex justify-center text-4xl font-[600] tracking-wider mt-2 cursor-pointer text-[#6C63FF]">
                     donatepur
                   </h1>
                 </div>
               </Link>
             </div>
-            <span className="hidden md:flex text-lg text-[#454655] font-[600] pt-6 justify-evenly">
+            <span className="hidden md:flex text-base text-[#454655] font-[600] pt-6 justify-evenly">
               <span className="px-4 -mb-4">
                 <Link href="/">
                   <a
@@ -88,7 +88,7 @@ const Navbar = (props) => {
               </span>
             </span>
             <div className="flex p-4">
-              <button className="bg-[#ffffff] px-2 py-1 text-[#454655] rounded-3xl mx-1 text-md font-bold">
+              <button className="bg-[#ffffff] px-2 py-1 text-[#454655] rounded-3xl mx-1 text-md font-semibold">
                 Log in
               </button>
               <button className="bg-[#6C63FF] px-2 py-1 text-white rounded-3xl mx-1 text-md font-semibold">
@@ -121,23 +121,23 @@ const Navbar = (props) => {
             <div className={`${active ? "" : "hidden"}   w-full `}>
               <div className="w-full flex jusitfy-around flex-col text-[#454655] px-8">
                 <Link href="/">
-                  <a className="w-auto py-2 rounded text-md font-bold">Home</a>
+                  <a className="w-auto py-2 rounded text-md">Home</a>
                 </Link>
                 <Link href="/donate">
-                  <a className="w-auto py-2 rounded text-md font-bold">
+                  <a className="w-auto py-2 rounded text-md">
                     Donate
                   </a>
                 </Link>
                 <Link href="/inform">
-                  <a className="w-auto py-2 rounded text-md font-bold">
+                  <a className="w-auto py-2 rounded text-md">
                     Inform
                   </a>
                 </Link>
                 <Link href="/blogs">
-                  <a className="w-auto py-2 rounded text-md font-bold">Blog</a>
+                  <a className="w-auto py-2 rounded text-md">Blog</a>
                 </Link>
                 <Link href="/about">
-                  <a className="w-auto py-2 rounded text-md font-bold">About</a>
+                  <a className="w-auto py-2 rounded text-md">About</a>
                 </Link>
               </div>
             </div>

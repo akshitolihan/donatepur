@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "../../components/Navbar";
 import extra from "../../styles/Extra.module.css";
 import Carousel from "../../components/Carousel";
+import Footer from "../../components/Footer";
 const index = () => {
   return (
     <>
@@ -12,7 +13,12 @@ const index = () => {
         <title>Demo</title>
       </Head>
       <Navbar />
-      <Carousel heading="Blogs" desc="Know more about donation." />
+      <Carousel
+        image="/dp-blog.svg"
+        heading="Blogs"
+        desc="Know more about donation 📒"
+      />
+      <Footer />
     </>
   );
 };

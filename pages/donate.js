@@ -5,6 +5,8 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import extra from "../styles/Extra.module.css";
 import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
+
 const donate = () => {
   return (
     <>
@@ -13,9 +15,13 @@ const donate = () => {
       </Head>
       <Navbar />
       <Carousel 
+       image="/dp-donate.svg"
       heading = "Donate"
-      desc = "Donate to those who need help."
-      />    </>
+      desc = "Donate to those who need help 💰"
+      />   
+      <Footer />
+       </>
+      
   );
 };
 

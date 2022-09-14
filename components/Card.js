@@ -11,7 +11,7 @@ const Card = () => {
             alt="home"
             className=""
             src="/child.svg"
-            height="256px"
+            height="256px" 
             width="256px"
             layout="intrinsic"
           />

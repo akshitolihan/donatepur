@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */ 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'aksh': '-2px 0px 0px 0px #00E676',
+          top: "0px 0px 10px rgba(100, 100, 111, 0.5)",
       },
     },
   },
   plugins: [],
-}
+};
