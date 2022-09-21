@@ -19,7 +19,7 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <main className="shadow-top rounded-lg">
+      <main className="shadow-top rounded-lg mt-10">
         <article className="md:flex md:justify-around md:text-start text-center">
           <section className="">
             <Link href="/" passHref>
@@ -109,7 +109,7 @@ const Footer = () => {
           </section>
         </article>
         <hr />
-        <h1 className="text-center text-lg font-semibold p-4 tracking-wider text-[#6C63FF]">
+        <h1 className="text-center text-lg font-semibold p-4 tracking-wider text-[#000000]">
           Made with ❤️ by Villager!
         </h1>
       </main>

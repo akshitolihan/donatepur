@@ -398,6 +398,13 @@
   "resolved" "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   "version" "0.0.1"
 
+"copy-to-clipboard@^3.3.1":
+  "integrity" "sha512-Vme1Z6RUDzrb6xAI7EZlVZ5uvOk2F//GaxKUxajDqm9LhOVM1inxNAD2vy+UZDYsd0uyA9s7b3/FVZPSxqrCfg=="
+  "resolved" "https://registry.npmjs.org/copy-to-clipboard/-/copy-to-clipboard-3.3.2.tgz"
+  "version" "3.3.2"
+  dependencies:
+    "toggle-selection" "^1.0.6"
+
 "core-js-pure@^3.20.2":
   "integrity" "sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg=="
   "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.24.1.tgz"
@@ -1149,6 +1156,11 @@
   "resolved" "https://registry.npmjs.org/isexe/-/isexe-2.0.0.tgz"
   "version" "2.0.0"
 
+"jquery@^3.6.1", "jquery@>=1.8.3":
+  "integrity" "sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.1.tgz"
+  "version" "3.6.1"
+
 "js-tokens@^3.0.0 || ^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
   "resolved" "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -1425,6 +1437,13 @@
     "type-check" "^0.4.0"
     "word-wrap" "^1.2.3"
 
+"owl.carousel@~2.3.4":
+  "integrity" "sha512-JaDss9+feAvEW8KZppPSpllfposEzQiW+Ytt/Xm5t/3CTJ7YVmkh6RkWixoA2yXk2boIwedYxOvrrppIGzru9A=="
+  "resolved" "https://registry.npmjs.org/owl.carousel/-/owl.carousel-2.3.4.tgz"
+  "version" "2.3.4"
+  dependencies:
+    "jquery" ">=1.8.3"
+
 "p-limit@^3.0.2":
   "integrity" "sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ=="
   "resolved" "https://registry.npmjs.org/p-limit/-/p-limit-3.1.0.tgz"
@@ -1553,7 +1572,7 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.2.1.tgz"
   "version" "1.2.1"
 
-"prop-types@^15.5.8", "prop-types@^15.7.2", "prop-types@^15.8.1":
+"prop-types@^15.5.8", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -1577,6 +1596,14 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
+"react-copy-to-clipboard@^5.1.0":
+  "integrity" "sha512-k61RsNgAayIJNoy9yDsYzDe/yAZAzEbEgcz3DZMhF686LEyukcE1hzurxe85JandPUG+yTfGVFzuEw3xt8WP/A=="
+  "resolved" "https://registry.npmjs.org/react-copy-to-clipboard/-/react-copy-to-clipboard-5.1.0.tgz"
+  "version" "5.1.0"
+  dependencies:
+    "copy-to-clipboard" "^3.3.1"
+    "prop-types" "^15.8.1"
+
 "react-dom@^16 || ^17 || ^18", "react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
@@ -1584,6 +1611,16 @@
   dependencies:
     "loose-envify" "^1.1.0"
     "scheduler" "^0.23.0"
+
+"react-dom@16.14.0":
+  "integrity" "sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.14.0.tgz"
+  "version" "16.14.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
+    "prop-types" "^15.6.2"
+    "scheduler" "^0.19.1"
 
 "react-easy-swipe@^0.0.21":
   "integrity" "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
@@ -1602,6 +1639,15 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
+"react-owl-carousel@^2.3.3":
+  "integrity" "sha512-B4TI2EDDtp7IDM8CWzl5Rh/17p1NfMW/QBIbkC18CkiMGCbO9ztY+vAPTN60tp+63V9v/oLqArLjkiQtDGqj/A=="
+  "resolved" "https://registry.npmjs.org/react-owl-carousel/-/react-owl-carousel-2.3.3.tgz"
+  "version" "2.3.3"
+  dependencies:
+    "owl.carousel" "~2.3.4"
+    "react" "16.14.0"
+    "react-dom" "16.14.0"
+
 "react-responsive-carousel@^3.2.23":
   "integrity" "sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg=="
   "resolved" "https://registry.npmjs.org/react-responsive-carousel/-/react-responsive-carousel-3.2.23.tgz"
@@ -1611,12 +1657,21 @@
     "prop-types" "^15.5.8"
     "react-easy-swipe" "^0.0.21"
 
-"react@*", "react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.0.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+"react@*", "react@^15.3.0 || 16 || 17 || 18", "react@^16 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.2.0", "react@>= 16.0.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
+
+"react@^16.14.0", "react@16.14.0":
+  "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
+  "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  "version" "16.14.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
+    "prop-types" "^15.6.2"
 
 "read-cache@^1.0.0":
   "integrity" "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="
@@ -1692,6 +1747,14 @@
   "version" "1.2.0"
   dependencies:
     "queue-microtask" "^1.2.2"
+
+"scheduler@^0.19.1":
+  "integrity" "sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz"
+  "version" "0.19.1"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
 
 "scheduler@^0.23.0":
   "integrity" "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw=="
@@ -1848,6 +1911,11 @@
   "version" "5.0.1"
   dependencies:
     "is-number" "^7.0.0"
+
+"toggle-selection@^1.0.6":
+  "integrity" "sha512-BiZS+C1OS8g/q2RRbJmy59xpyghNBqrr6k5L/uKBGRsTfxmu3ffiRnd8mlGPUVayg8pvfi5urfnu8TU7DVOkLQ=="
+  "resolved" "https://registry.npmjs.org/toggle-selection/-/toggle-selection-1.0.6.tgz"
+  "version" "1.0.6"
 
 "tsconfig-paths@^3.14.1":
   "integrity" "sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ=="
