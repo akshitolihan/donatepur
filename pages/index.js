@@ -12,7 +12,18 @@ import Donate from "../components/Donate";
 import Card1 from "../components/Card1";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { BiCopy } from "react-icons/bi";
-
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  PinterestShareButton,
+  PinterestIcon,
+  RedditShareButton,
+  RedditIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
+  LinkedinShareButton,
+  LinkedinIcon,
+} from "next-share";
 const Index = () => {
   const [isCopied, setIsCopied] = useState(false);
 
@@ -34,7 +45,6 @@ const Index = () => {
         <title>Demo</title>
       </Head>
       <Navbar />
-
       <Carousel
         image="/donate.svg"
         heading="I'm Donatepur"
@@ -91,9 +101,9 @@ const Index = () => {
         </h1>
         <section className="flex justify-center ">
           <section className="grid justify-center max-w-4xl">
-            <Card1 heading="Inform us!"  />
+            <Card1 heading="Inform us!" />
             <Card1 heading="Spread Awareness!" />
-            <Card1 heading="Share About Us"/>
+            <Card1 heading="Share About Us" />
           </section>
         </section>
       </section>
