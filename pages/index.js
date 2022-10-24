@@ -12,45 +12,20 @@ import Donate from "../components/Donate";
 import Card1 from "../components/Card1";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { BiCopy } from "react-icons/bi";
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  PinterestShareButton,
-  PinterestIcon,
-  RedditShareButton,
-  RedditIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-} from "next-share";
+import ClipboardCopy from "../components/Copy";
 const Index = () => {
-  const [isCopied, setIsCopied] = useState(false);
-
-  const codeSnippet = `
-  const a = 10, b = 20;
-  const sum = a + b;
-  console.log(sum);
-  `;
-  const webSite = "www.villagepur.com";
-  const onCopyText = () => {
-    setIsCopied(true);
-    setTimeout(() => {
-      setIsCopied(false);
-    }, 1000);
-  };
   return (
     <>
       <Head>
         <title>Demo</title>
       </Head>
       <Navbar />
+
       <Carousel
         image="/donate.svg"
         heading="I'm Donatepur"
         desc="A helping place!🤝"
       />
-
       <section className="flex justify-center py-10 m-4 rounded-lg shadow-even">
         <section className="max-w-4xl bg-[#ffffff] rounded-lg">
           <div className="block justify-between">
@@ -100,7 +75,7 @@ const Index = () => {
           What else can you do?
         </h1>
         <section className="flex justify-center ">
-          <section className="grid justify-center max-w-4xl">
+          <section className="grid justify-around max-">
             <Card1 heading="Inform us!" />
             <Card1 heading="Spread Awareness!" />
             <Card1 heading="Share About Us" />

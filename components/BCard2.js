@@ -3,10 +3,10 @@ import Image from "next/image";
 const BCard2 = (props) => {
   return (
     <section className="flex justify-center py-4 m-4">
-      <section className="grid max-w-[350px] justify-center shadow-even hover:shadow-lg rounded-sm">
+      <section className="grid max-w-[350px] justify-center shadow-even hover:shadow-lg rounded-lg">
         <div className="w-auto flex justify-center p-2">
           <Image
-            className="shadow-even rounded-sm w-auto "
+            className="shadow-even rounded- w-auto "
             alt={props.alt}
             src={props.image}
             height={props.h}

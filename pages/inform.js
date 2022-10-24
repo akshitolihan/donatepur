@@ -15,13 +15,45 @@ const inform = () => {
         <title>Demo</title>
       </Head>
       <Navbar />
-      <Carousel 
-       image="/dp-inform.svg"
-      heading = "Inform us"
-      desc = "If you find any needy 💁"
-      />  
+      <Carousel
+        image="/dp-inform.svg"
+        heading="Inform us"
+        desc="If you find any needy 💁"
+      />
+
+      <section>
+        <section>
+          <h1>Fill out the given form!</h1>
+          <h1>What kind of help is needed?</h1>
+
+          <select name="help" id="donate">
+            <option value="food">Food</option>
+            <option value="money">Money</option>
+            <option value="clothes">Clothes</option>
+            <option value="blood">Blood</option>
+          </select>
+          <section>
+            <h1>Please add your info?</h1>
+            <section>
+              <input type="text" placeholder="Name" />
+              <input type="number" placeholder="Phone" />
+              <input type="text" placeholder="Address" />
+            </section>
+          </section>
+
+          {/* Where the help is needed -- Getting Addrsss */}
+          <section>
+            <h1>Where this help is needed?</h1>
+            <section>
+              <input type="number" placeholder="Phone" />
+              <input type="text" placeholder="Address" />
+            </section>
+          </section>
+        </section>
+      </section>
+
       <Footer />
-        </>
+    </>
   );
 };
 
