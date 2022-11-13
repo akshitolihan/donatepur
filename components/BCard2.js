@@ -1,9 +1,12 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 const BCard2 = (props) => {
   return (
+    <>
     <section className="flex justify-center py-4 m-4">
-      <section className="grid max-w-[350px] justify-center shadow-even hover:shadow-lg rounded-lg">
+    <Link href={props.link} >
+      <section className="grid max-w-[350px] justify-center shadow-even hover:shadow-lg rounded-lg  cursor-pointer">
         <div className="w-auto flex justify-center p-2">
           <Image
             className="shadow-even rounded- w-auto "
@@ -14,8 +17,8 @@ const BCard2 = (props) => {
           />
         </div>
         <div className="p-4">
-          <h1 className="text-xl font-bold">{props.heading}</h1>
-          <p className="text-justify">{props.desc}</p>
+          <h1 className="text-xl font-bold my-2">{props.heading}</h1>
+          <p className="text-justify my-2">{props.desc}</p>
           <div>
             <h1 className="pt-4 text-base font-semibold text-[#454655]">
               {props.date}
@@ -26,7 +29,9 @@ const BCard2 = (props) => {
           </div>
         </div>
       </section>
+      </Link>
     </section>
+      </>
   );
 };
 

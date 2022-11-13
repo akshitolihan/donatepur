@@ -1,14 +1,19 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 const Donate = (props) => {
   return (
     <>
-      <section className="max-w-4xl h-auto grid md:flex rounded-lg shadow-even m-4 my-12 justify-between">
+      <section className="max-w-4xl h-auto grid md:flex rounded-lg shadow-even m-4 my-12 justify-between cursor-pointer">
         <section className="p-4 mt-4">
           <h1 className="font-bold text-5xl">{props.heading}</h1>
-          <button className="bg-[#6C63FF] text-white rounded-3xl text-md font-semibold px-2 py-1 mt-6">
-            Start Here
-          </button>
+          <Link href={props.link} passHref>
+            <a href="">
+              <button className="bg-[#6C63FF] text-white rounded-3xl text-md font-semibold px-2 py-1 mt-6">
+                Start Here
+              </button>
+            </a>
+          </Link>
         </section>
         <section className="max-w-sm">
           <div className="flex justify-center">

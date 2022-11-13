@@ -1,98 +1,53 @@
 import React from "react";
+import Head from "next/head";
 import Image from "next/image";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import Date from "../../components/Date";
+import Author from "../../components/Author";
+import MainHead from "../../components/MainHead";
+import Para from "../../components/Para";
+import ParaHead from "../../components/ParaHead";
+import Images from "../../components/Image";
+import End from "../../components/End";
 const poor = () => {
   return (
     <>
-      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#ffffff]">
-        <section className="w-auto flex justify-center bg-white rounded-xl shadow-even my-10 border-[3px] border-[#6C63FF]">
+      <Head>
+        <title>Why is the donation needed?</title>
+      </Head>
+
+      <Navbar Color="#448AFF" bColor="#ffffff" />
+      <section className="flex justify-center flex-wrap md:flex-nowrap md:bg-[#ffffff] ">
+        <section className="w-auto flex justify-center bg-white rounded-3xl shadow-even my-10">
           <section className="m-0 md:m-0 rounded-3xl text-black lg:w-[900px] ">
-            <section
-              // style={{
-              //   backgroundImage: `url("../background.jpg")`,
-              //   // width: "100%",
-              //   // height: "100%",
-              // }}
-              className="p-2 pt-4 md:px-14 "
-            >
-              <h1 className="text-3xl font-bold text-center">
-                Poverty in India is a Big Problem
-              </h1>
-              <div className="w-auto flex justify-center py-8">
-                <Image
-                  className="shadow-even rounded-md w-auto"
-                  alt="childern"
-                  src="/poor-childern.jpg"
-                  height="375px"
-                  width="850px"
-                />
-              </div>
-              <div className="flex justify-between">
-                <h1 className="text-base font-semibold text-[#454655]">
-                  12 Oct 2022
-                </h1>
-                <h1 className="text-base font-semibold text-[#6C63FF]">
-                  By Akshit Kumar
-                </h1>
-              </div>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              <p className="text-justify py-6">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-                maxime laboriosam aliquid impedit totam, laudantium, quod
-                blanditiis vero perspiciatis odit explicabo, eos eligendi sequi
-                quae consequuntur hic atque nemo rem dolorum animi? Sed maxime
-                quod, aut est labore consequuntur eius excepturi, animi sit
-                aperiam nobis rem. Voluptas quidem repudiandae fuga voluptatibus
-                veniam saepe, amet sint nemo reiciendis odio architecto. At.
-              </p>
-              
+            <section className="p-2 pt-4 md:px-14">
+              <section className="flex justify-between ">
+                <Date date="10 Nov 2022" />
+                <Author author="by Akshit Kumar" />
+              </section>
+              <hr />
+              <MainHead text="Why there is a need of donation?" />
+              <Images alt="Test" image="/help.svg" />
+              <ParaHead
+                head="Need for Donation"
+                para="There are many reasons why people might need donations. Someone might need donations to help with a medical emergency, for example. Or someone might need donations to help with a specific cause, such as a charity that helps children in need."
+              />
+              <Para text="There are many reasons why people might need donations. Someone might need donations to help with a medical emergency, for example. Or someone might need donations to help with a specific cause, such as a charity that helps children in need." />
+              <ParaHead
+                head="Need for Donation"
+                para="There are many reasons why people might need donations. Someone might need donations to help with a medical emergency, for example. Or someone might need donations to help with a specific cause, such as a charity that helps children in need."
+              />
+              <ParaHead
+                head="Need for Donation"
+                para="There are many reasons why people might need donations. Someone might need donations to help with a medical emergency, for example. Or someone might need donations to help with a specific cause, such as a charity that helps children in need."
+              />
+              <End />
             </section>
           </section>
         </section>
       </section>
+      <Footer/>
     </>
   );
 };

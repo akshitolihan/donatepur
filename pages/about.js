@@ -21,19 +21,7 @@ const about = () => {
         heading="Know about us "
         desc="Let's Work Together ✊"
       />
-      {/* <section className=" justify-center my-32 ">
-      <h1 className="mx-4 text-4xl font-[600] tracking-wider text-[#1E71F9] text-center">
-            Our Motive
-          </h1>
-        <section className="grid justify-center w-auto rounded-lg shadow-">
-          <span className="flex justify-center m-4">
-            <p className="max-w-xl text-2xl tracking-wider font-semibold text-justify my-4 text-[#454655]">
-              To help each person who is is any kind of need through our
-              platform with purity in hearnt and hionest midnd.
-            </p>
-          </span>
-        </section>
-      </section> */}
+
       <h1 className="mt-20 my-10 text-4xl font-[600] tracking-wider text-[#454655] text-center">
         Interact more!
       </h1>

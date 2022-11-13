@@ -1,10 +1,15 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 const BCard1 = (props) => {
   return (
     <>
-      <section className="grid md:flex justify-around shadow-even m-4 rounded-lg md:py-10 mt-4">
+    <Link href={props.link} >
+      <section className="grid md:flex justify-around shadow-even m-4 rounded-lg md:py-10 mt-4 cursor-pointer">
         <div className="grid justify-center md:block p-4">
+          <h1 className="text-xl font-bold text-[#6C63FF]">
+            Latest from us!
+          </h1>
           <div className="flex justify-between">
             <h1 className="text-base font-semibold text-[#454655]">
               {props.date}
@@ -18,7 +23,7 @@ const BCard1 = (props) => {
           </p>
           <h1 className="mt-4 md:mt-10 text-base font-semibold text-[#6C63FF]">
             <span className="mt-4 md:mt-10 text-base w-auto font-bold text-[#454655]">
-              By  
+              By
             </span>
             {props.author}
           </h1>
@@ -33,7 +38,8 @@ const BCard1 = (props) => {
             // layout="intrinsic"
           />
         </div>
-      </section>{" "}
+      </section>
+      </Link>
     </>
   );
 };

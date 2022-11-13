@@ -6,7 +6,7 @@ import Navbar from "../../components/Navbar";
 import extra from "../../styles/Extra.module.css";
 import Carousel from "../../components/Carousel";
 import Footer from "../../components/Footer";
-
+import DButton from "../../components/DButton";
 const donate = () => {
   return (
     <>
@@ -22,67 +22,18 @@ const donate = () => {
 
       <section className="my-16">
         <section className="grid justify-center p-4">
-          <h1 className="text-4xl font-bold flex justify-center p-2">
+          <h1 className="text-4xl text-[#454655] font-bold flex justify-center p-2">
             Start with the donation?
           </h1>
         </section>
         <section className="flex justify-center">
           <section className="grid md:grid-cols-3 justify-center bg-[#ffffff] p-2 w-full">
-            <span className="flex justify-center">
-              <h1 className="bg-[#FF8E6B] text-white p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Food
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#FFC655] text-white p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Clothes
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#FF589B] text-white p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Food
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#ffffff] p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Money
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#ffffff] p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Education
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#ffffff] p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Blood
-              </h1>
-            </span>
-
-            <span className="flex justify-center">
-              <h1 className="bg-[#FF8E6B] text-white p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Organs
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#FFC655] text-white p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Shelter
-              </h1>
-            </span>
-            <span className="flex justify-center">
-              <h1 className="bg-[#FF589B] text-white  p-2 cursor-pointer m-4 rounded-lg shadow-lg w-40 font-semibold text-center">
-                {" "}
-                Donate Shelter
-              </h1>
-            </span>
+            <DButton bg="FF8E6B" text="Donate Food" link="/../donate/food" />
+            <DButton bg="FFC655" text="Donate Clothes" link="/../donate/clothes" />
+            <DButton bg="FF589B" text="Donate Money" link="/../donate/money" />
+            <DButton bg="FF8E6B" text="Donate Blood" link="/../donate/blood" />
+            <DButton bg="FFC655" text="Donate Education" link="/../donate/education" />
+            <DButton bg="FF589B" text="Donate Shelter" link="/../donate/shelter"/>
           </section>
         </section>
       </section>

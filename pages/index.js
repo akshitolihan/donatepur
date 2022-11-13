@@ -58,15 +58,15 @@ const Index = () => {
               What you can do?
             </h1>
           </div>
-          <Donate heading="Donate Food" src="/food-donation.jpg" />
-          <Donate heading="Donate Clothes" src="/clothes-donation.jpg" />
-          <Donate heading="Donate Money" src="/money-donation.jpg" />
-          <Donate heading="Donate Blood" src="/blood-donation.jpg" />
+          <Donate link="/donate/food" heading="Donate Food" src="/food-donation.jpg" />
+          <Donate link="/donate/clothes" heading="Donate Clothes" src="/clothes-donation.jpg" />
+          <Donate link="/donate/money" heading="Donate Money" src="/money-donation.jpg" />
+          <Donate link="/donate/blood" heading="Donate Blood" src="/blood-donation.jpg" />
           <Donate
-            heading="Donate for Education"
+            link="/donate/education" heading="Donate for Education"
             src="/education-donation.jpg"
           />
-          <Donate heading="Find out more..." src="/more-donation.jpg" />
+          <Donate link="/donate" heading="Find out more..." src="/more-donation.jpg" />
         </section>
       </section>
 
@@ -74,13 +74,12 @@ const Index = () => {
         <h1 className="text-[#6C63FF] font-bold text-5xl p-4 text-center">
           What else can you do?
         </h1>
-        <section className="flex justify-center ">
-          <section className="grid justify-around max-">
-            <Card1 heading="Inform us!" />
-            <Card1 heading="Spread Awareness!" />
-            <Card1 heading="Share About Us" />
+  
+          <section className="">
+            <Card1 heading="dsjg" link="www.donatepur.com" />
+          
           </section>
-        </section>
+
       </section>
 
       <section className="flex justify-center mt-10 bg-[#6C63FF] pb-40  m-4 rounded-lg shadow-even">
@@ -90,18 +89,26 @@ const Index = () => {
             <p className="text-justify text-lg">
               Give your time helping people!
             </p>
+            <Link href="/auth" passHref>
+            <a href="">
             <button className="bg-[#6C63FF] text-white rounded-3xl text-md font-semibold px-2 py-1 mt-4">
               Register
-            </button>{" "}
+            </button>
+            </a>
+          </Link>
           </section>
           <section className="p-4 bg-[#000000] text-white rounded-lg rounded-l-none">
             <h1 className="font-bold text-5xl py-4">Become a Donater!</h1>
             <p className="text-justify text-lg">
               Donate whatever you can donate!
             </p>
+            <Link href="/donate" passHref>
+            <a href="">
             <button className="bg-[#6C63FF] text-white rounded-3xl text-md font-semibold px-2 py-1 mt-4">
               Donate
             </button>
+            </a>
+          </Link>
           </section>
         </section>
       </section>

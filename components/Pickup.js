@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 import Image from "next/dist/client/image";
 const pickup = (props) => {
   return (
@@ -10,6 +10,7 @@ const pickup = (props) => {
         <title>Pickup Details</title>
       </Head>
       <Navbar />
+
       <section className="flex justify-center shadow-even rounded-lg m-4">
         <section className="flex">
           <section className="bg-[#6C63FF] rounded-lg m-4">
@@ -30,6 +31,7 @@ const pickup = (props) => {
               />
             </div>
           </section>
+          <form action="">
           <section className="m-4">
             <h1 className="text-4xl font-bold flex justify-center">
               Enter Your Details
@@ -73,6 +75,39 @@ const pickup = (props) => {
             </section>
 
             <section className="mt-8">
+              <h1 className="m-2 p-2 text-base font-bold">Donation Details</h1>
+              <section className="grid">
+                <section className="">
+                  <h1 className="text-base font-semibold m-4">
+                    What would you like to donate?
+                  </h1>
+
+                  <select name="help" className="mx-4">
+                    <option value="food">Food</option>
+                    <option value="money">Money</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="blood">Blood</option>
+                  </select>
+                </section>
+
+              </section>
+              <section className="flex">
+                <section className="grid">
+                  <input
+                    type="text"
+                    placeholder="Donation Size"
+                    className="m-2 my-4 p-2 rounded-full h-10 outline-0 border-2 w-72"
+                  />
+
+                  <textarea 
+                    type="text"
+                    placeholder="What are you donating?"
+                    className="m-2 my-4 p-2 rounded-xl h-20 outline-0 border-2 w-72"
+                  />
+                </section>
+              </section>
+            </section>
+            <section className="mt-8">
               <h1 className="m-2 p-2 text-base font-bold">Pickup Address</h1>
               <section className="flex">
                 <section className="grid">
@@ -111,6 +146,7 @@ const pickup = (props) => {
               Submit
             </button>
           </section>
+          </form>
         </section>
       </section>
       <Footer />
