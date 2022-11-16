@@ -27,13 +27,13 @@ const donate = () => {
           </h1>
         </section>
         <section className="flex justify-center">
-          <section className="grid md:grid-cols-3 justify-center bg-[#ffffff] p-2 w-full">
-            <DButton bg="FF8E6B" text="Donate Food" link="/../donate/food" />
-            <DButton bg="FFC655" text="Donate Clothes" link="/../donate/clothes" />
-            <DButton bg="FF589B" text="Donate Money" link="/../donate/money" />
-            <DButton bg="FF8E6B" text="Donate Blood" link="/../donate/blood" />
-            <DButton bg="FFC655" text="Donate Education" link="/../donate/education" />
-            <DButton bg="FF589B" text="Donate Shelter" link="/../donate/shelter"/>
+          <section className="grid md:grid-cols-3 justify-center p-2 w-full">
+            <DButton bg="#FF8E6B" text="Donate Food" link="/../donate/food" />
+            <DButton bg="#FFC655" text="Donate Clothes" link="/../donate/clothes" />
+            <DButton bg="#FF589B" text="Donate Money" link="/../donate/money" />
+            <DButton bg="#FF8E6B" text="Donate Blood" link="/../donate/blood" />
+            <DButton bg="#FFC655" text="Donate Education" link="/../donate/education" />
+            <DButton bg="#FF589B" text="Donate Shelter" link="/../donate/shelter"/>
           </section>
         </section>
       </section>
