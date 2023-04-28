@@ -3,8 +3,6 @@ import { useState } from "react";
 
 const ClipboardCopy = ({ copyText }, props) => {
   const [isCopied, setIsCopied] = useState(false);
-  let after = `${props.text}`;
-  let before = "sdjklg";
   // This is the function we wrote earlier
   async function copyTextToClipboard(text) {
     if ("clipboard" in navigator) {
