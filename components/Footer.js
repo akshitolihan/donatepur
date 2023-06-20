@@ -110,7 +110,7 @@ const Footer = () => {
         </article>
         <hr />
         <h1 className="text-center text-lg font-semibold p-4 tracking-wider text-[#000000]">
-          Made with ❤️ by Villager!
+          Made with ❤️ by Akshit!
         </h1>
       </main>
     </>
